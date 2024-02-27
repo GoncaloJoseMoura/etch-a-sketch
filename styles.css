@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(179, 66, 66);
+    font-family: fantasy, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div#content {
+    border: 10px solid gray;
+    border-radius: 5px;
+    background-color: wheat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 700px;
+    height: 750px;
+}
+
+
+div#container {
+    background-color: black;
+    height: 600px;
+    width: 600px;
+    margin: 10px;
+}
+
+.outerDiv {
+    display: flex;
+}
+
+.insideDiv {
+    background-color: aliceblue;
+    margin: 1px;
+}
